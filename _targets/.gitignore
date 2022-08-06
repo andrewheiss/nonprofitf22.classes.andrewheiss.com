@@ -2,4 +2,4 @@
 !.gitignore
 !meta
 meta/*
-!meta/meta
+#!meta/meta
