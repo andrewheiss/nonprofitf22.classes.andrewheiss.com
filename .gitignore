@@ -1,0 +1,18 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+/_site/
+/_freeze/
+
+slides/*.pdf
+slides/*.html
+slides/**/*_cache/*
+
+# knitr and caching stuff
+**/*_files/*
+**/*_cache/*
+
+README.html
