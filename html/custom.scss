@@ -13,18 +13,17 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
-// Inferno colors
-// viridisLite::viridis(8, option = "inferno", begin = 0.1, end = 0.9)
-$blue:    #42159D !default;
-$indigo:  #771C6D !default;
-$purple:  #480B6A !default;
-$pink:    #A52C60 !default;
-$red:     #CF4446 !default;
-$orange:  #EE6A24 !default;
-$yellow:  #FB9E07 !default;
-$green:   #02b875 !default;
-$teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
+// Hiroshige colors from MetBrewer R package
+$blue:   #1e466e !default;
+$indigo: #376795 !default;
+$purple: #480B6A !default;
+$pink:   #A52C60 !default;
+$red:    #e76254 !default;
+$orange: #ef8a47 !default;
+$yellow: #ffd06f !default;
+$green:  #02b875 !default;
+$teal:   #aadce0 !default;
+$cyan:   #72bcd5 !default;
 
 $primary:       $blue !default;
 $secondary:     $gray-500 !default;
@@ -54,6 +53,7 @@ $sidebar-font-size-section: 0.9rem;
 
 $link-color: $red;
 $link-hover-color: $yellow;
+
 
 $monokai-bg: #2e3440;
 
