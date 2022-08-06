@@ -119,6 +119,17 @@ ol {
 }
 
 
+// Active links in navbar and sidebar
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+div.sidebar-item-container .active,
+div.sidebar-item-container .show>.nav-link,
+div.sidebar-item-container .sidebar-link>code{
+  color: $yellow;
+}
+
+
 // Footer stuff
 .nav-footer-left {
   text-align: left;
