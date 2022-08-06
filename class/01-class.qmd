@@ -1,0 +1,34 @@
+---
+title: "Course overview and defining the nonprofit sector"
+date: "2022-08-25"
+---
+
+```{r slides, echo=FALSE, include=FALSE}
+source(here::here("R", "slide-things.R"))
+
+slide_details <- tibble::tribble(
+  ~title, ~slide, ~active,
+  "Introduction", "1", TRUE,
+  "What are nonprofits?", "what-are-nonprofits", FALSE,
+  "Why do we have a class just for nonprofits?", "why-focus", FALSE,
+  "What are we doing this semester?", "class-overview", FALSE
+)
+```
+
+## Readings
+
+- The [syllabus](/syllabus.qmd), [class](/class/index.qmd), and [assignments](/assignment/index.qmd) pages for this class
+
+
+## Slides
+
+The slides for today's class are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+slide_buttons("/slides/01-slides")
+slide_tabs(slide_details, "/slides/01-slides.html")
+```
+
+:::{.callout-tip}
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::

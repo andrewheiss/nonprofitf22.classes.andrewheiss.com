@@ -1,0 +1,67 @@
+---
+title: "Assignments"
+---
+
+## Pre-class check-in
+
+You will get the most out of this class if you (1) attend class, (2) complete all the readings, (3) engage with the readings, and (4) work well with your team.
+
+To encourage attendance and preparation, I use an honor-system-based self-reporting system. Before coming to class, you'll need to fill out this pre-class check-in on iCollege:
+
+1. Are you here in class today?
+    - Yes (*0.5 points*)
+    - No (*0 points*)
+2. How much of today's reading did you finish?
+    - 100% (*3 points*)
+    - 75–99% (*2 points*)
+    - 40–74% (*1 points*)
+    - 0–39% (*0 points*)
+3. How well did you read?
+    - I was engaged and read carefully (*3 points*)
+    - I was fairly engaged and read fairly carefully (*2 points*)
+    - I skimmed it (*1 points*)
+    - I didn't read it at all (*0 points*)
+4. Written response paragraph (*5 points*)
+
+You'll also need to submit a short written response paragraph as part of each pre-class check-in. These both (1) allow me to make sure the class is understanding the materials, and (2) allow you to come prepared for effective team work in class. 
+
+The question you need to answer will be included after the list of readings for each class session. Written responses should be about a paragraph, or ≈150 words. That's fairly short: there are ≈250 words on a typical double-spaced page in Microsoft Word (500 when single-spaced). **I recommend typing your written response paragraph in a separate document and copying/pasting the response into iCollege intead of typing in iCollege directly.**
+
+These pre-class check-ins are due by the beginning of class on Tuesdays and Thursdays. 
+
+Each check-in is worth 11.5 points. There are 24 possible pre-class check-ins, but **I will only count the 20 highest grades**. (Note that this is how I track attendance, and note that attendance is only worth 0.5 points—that's just so I can quickly see fractions in the gradebook).
+
+
+## Why nonprofits?
+
+Early in the semester, you will write a 2-page paper (≈500 words) explaining why you are interested in nonprofit organizations. Draw on your personal history, values, experiences, and/or faith to explain your interest in nonprofits. Describe any thoughts or plans on work you would like to do in the future with nonprofits and any issues or causes that you're particularly interested in.
+
+[Complete details for this assignment can be found here](/assignment/01-why-nonprofits.qmd).
+
+This is an **individual assignment**.
+
+
+## Create a nonprofit organization
+
+Throughout the semester, you will work with a team to create a hypothetical nonprofit organization that addresses an issue that you are interested (and hopefully passionate!) about.
+
+It is a big project with lots of moving parts, but it's spread out over the course of the semester, and you'll get lots of time to work together as a team in class and get feedback from me.
+
+The final project consists of the following:
+
+- [Community, issue, mission, and vision](/assignment/01-community-issue-mission-vision.qmd)
+- [Organizational structure](/assignment/02-organizational-structure.qmd)
+- [Revenue plan and budget](/assignment/03-budget-revenue-plan.qmd)
+- [Fundraising and marketing plan](/assignment/04-fundraising-marketing.qmd)
+- [Diversity strategy](/assignment/05-dei.qmd)
+- [Final presentation](/assignment/final-project.qmd)
+- [Final portfolio](/assignment/final-project.qmd)
+
+Complete details for each section are on the individual assignment pages.
+
+This is a **team assignment**.
+
+
+## Exams
+
+There are no exams! We're in the middle of a deadly pandemic. I don't have the mental capacity to write exams; you don't have the mental capacity to take exams. The team project is your exam.

@@ -1,0 +1,25 @@
+---
+title: "Mission and vision statements"
+date: "2022-09-08"
+---
+
+```{r slides, echo=FALSE, include=FALSE}
+source(here::here("R", "slide-things.R"))
+
+slide_details <- tibble::tribble(
+  ~title, ~slide, ~active,
+  "Introduction", "1", TRUE,
+  "What are mission and vision statements?", "what-are", FALSE,
+  "How do we make good mission and vision statements?", "how-make", FALSE
+)
+```
+
+## Readings
+
+- {{< fa book >}} Chapter 6 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
+- {{< fa file-pdf >}} James C. Collins and Jerry I. Porras, ["Building Your Company's Vision"](https://cpb-us-e1.wpmucdn.com/sites.uw.edu/dist/0/1149/files/2018/10/HBR-Article-Core-Purpose-and-Values-1xxgxio.pdf) [@CollinsPorras:1996]
+
+
+## Written response question
+
+Do you think that in practice, a mission statement can ever be truly effective in constraining the expansion of activities of a nonprofit organization? Why or why not? (Answer in ≈150 words.)

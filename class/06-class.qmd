@@ -1,0 +1,26 @@
+---
+title: "Personnel"
+date: "2022-09-29"
+---
+
+```{r slides, echo=FALSE, include=FALSE}
+source(here::here("R", "slide-things.R"))
+
+slide_details <- tibble::tribble(
+  ~title, ~slide, ~active,
+  "Introduction", "1", TRUE,
+  "Principals and agents", "principals-agents", FALSE,
+  "Officers and employees", "officers-employees", FALSE,
+  "Volunteers", "volunteers", FALSE
+)
+```
+
+## Readings
+
+- {{< fa book >}} Chapter 12 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
+- {{< fa arrow-up-right-from-square >}} Kristine Ensor, ["Nonprofit Organizational Charts: What are They and Why are They Vital?"](https://donorbox.org/nonprofit-blog/nonprofit-org-chart/)
+
+
+## Written response question
+
+Should volunteers be treated any differently by the organization than paid staff members? Should volunteers be held to a lower standard of job performance than their paid counterparts? (Answer in ≈150 words.)

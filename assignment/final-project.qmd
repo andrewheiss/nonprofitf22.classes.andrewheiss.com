@@ -1,0 +1,52 @@
+---
+title: "Presentation and portfolio"
+date: "2022-12-09"
+---
+
+## Instructions
+
+Over the course of the semester, you’ve created a strong foundation for a nonprofit organization that will be able to address a social issue you care deeply about. You now have a clear mission statement, organizational structure, budget, fundraising strategy, grant proposal, and diversity strategy—that’s impressive!
+
+For your final project, you’ll take each of those pieces, clean them up, refine them, and do two things:
+
+### 1: Final presentation
+
+During one of the last two days of class, your team will give a 15-minute presentation showcasing your nonprofit to the class. You will *not* cover every element of your overall assignment (i.e. don’t have a slide for “articles of incorporation”, one for “grant proposal”, one for “diversity strategy” and so on). 
+
+Instead, treat this presentation as a pitch to a prominent charitable foundation that is interested in your issue and community. You’ll want to demonstrate that your organization is well designed, appropriately structured, and best positioned to address the issue.
+
+**Not every member of your team should present**—I’d recommend having two people present. This doesn’t mean that those two people should also be responsible for creating the slides and doing all the work for the presentation. The whole team should be involved—there should just be ≈2 speakers at the end.
+
+The presentation should be 12 minutes long, with 3 minutes for questions.
+
+
+### 2: Final portfolio
+
+At the end of the course, you will compile all of these team assignments into a single document:
+
+- Community, issue, mission, and vision
+- Organizational structure
+- Revenue plan and budget
+- Fundraising and marketing
+- Diversity strategy
+
+Do **not** simply copy and paste your past assignments into a document and turn that in. You’ll need to refine and polish past assignments, incorporating any comments from me and incorporating anything you’ve learned in class since turning it in (e.g., there should be some natural evolution of your mission and vision statement, etc.)
+
+You will format this final document in a professional manner. I’d highly recommend using something like [Canva](https://www.canva.com/), [Microsoft Publisher](https://www.microsoft.com/en-us/microsoft-365/publisher), [Apple Pages](https://www.apple.com/pages/), or [Adobe InDesign](https://www.adobe.com/products/indesign.html) to lay out the document with all your text, images, tables, graphs, and so on. Include a table of contents to make it easily navigable. (I’d recommend googling “nonprofit annual report examples” to see what a typical nonprofit publication looks like for inspiration.)
+
+
+## Turning it in
+
+Submit (1) the slides and (2) the final polished document as separate PDFs to iCollege.
+
+Since this is a team assignment, only one copy of the assignment needs to be submitted.
+
+
+## Grading
+
+I will grade these assignments using these rubrics: 
+
+- Final presentation: [`blank_presentation.xlsx`](/files/blank_presentation.xlsx)
+- Final portfolio: [`blank_portfolio.xlsx`](/files/blank_portfolio.xlsx)
+
+*(I'd highly recommend downloading these rubrics and referencing them as you work on your project!)*

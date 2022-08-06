@@ -1,0 +1,13 @@
+---
+title: "Readings, questions, and lectures"
+---
+
+Each class session has a set of required readings that you should complete ***before*** class. 
+
+Each class session also has a question that you should answer as part of your [pre-class check-in](/assignment/pre-class-check-in.qmd). 
+
+On each class session page you'll see buttons for opening the slides for the day in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:
+
+<p class="buttons" style="text-align:center;"><span class="btn btn-danger">{{< fa arrow-up-right-from-square >}} View all slides in new window</span> <span class="btn btn-danger">{{< fa file-pdf >}} Download PDF of all slides</span></p>
+
+The slides are also embedded on each page. You can click in the slides and navigate through them with <kbd>←</kbd> and <kbd>→</kbd>. If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while viewing the slides you can see a list of slide-specific commands (like <kbd>f</kbd> for fullscreen or <kbd>p</kbd> for presenter mode if you want to see my notes).

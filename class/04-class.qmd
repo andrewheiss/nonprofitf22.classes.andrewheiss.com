@@ -1,0 +1,25 @@
+---
+title: "Regulatory issues"
+date: "2022-09-15"
+---
+
+```{r slides, echo=FALSE, include=FALSE}
+source(here::here("R", "slide-things.R"))
+
+slide_details <- tibble::tribble(
+  ~title, ~slide, ~active,
+  "Introduction", "1", TRUE,
+  "Incorporation issues", "incorporation", FALSE,
+  "Money issues", "money", FALSE
+)
+```
+
+## Readings
+
+- {{< fa book >}} Chapter 4 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
+- {{< fa file-pdf >}} Chapter 1 in W. Jeffrey Garson, Donald W. Kramer, and Roberta M. Snow, *Nonprofit Leadership & the Law* [@GarsonKramerSnow:2000] (the PDF for this is on iCollege under "Content".)
+
+
+## Written response question
+
+Why did Congress prohibit tax-exempt charities from engaging in partisan political activity? Are there reasons to think that this prohibition is unwise in every case? Why did Congress prohibit "substantial lobbying" rather than all lobbying? Why is some amount of nonprofit political lobbying okay? (Answer in ≈150 words.)

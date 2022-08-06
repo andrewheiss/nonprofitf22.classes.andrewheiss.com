@@ -1,0 +1,29 @@
+---
+title: "Diversity in the nonprofit sector"
+date: "2022-11-03"
+---
+
+```{r slides, echo=FALSE, include=FALSE}
+source(here::here("R", "slide-things.R"))
+
+slide_details <- tibble::tribble(
+  ~title, ~slide, ~active,
+  "Introduction", "1", TRUE,
+  "Institutions and individual action", "institutions", FALSE,
+  "Nonprofits and institutions", "nonprofits-institutions", FALSE,
+  "Diversity in nonprofits", "diversity", FALSE
+)
+```
+
+## Readings
+
+- {{< fa book >}} Chapter 13 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
+- {{< fa arrow-up-right-from-square >}} Bloomerang, ["Why Do Nonprofits Struggle with Diversity?"](https://bloomerang.co/blog/why-do-nonprofits-struggle-with-diversity/)
+- {{< fa arrow-up-right-from-square >}} Neesha Powell, ["3 Ways To Decolonize Your Nonprofit As Told By A Black Queer Feminist Organizer"](https://everydayfeminism.com/2018/05/decolonizing-nonprofits/)
+- {{< fa file-pdf >}} Building Movement Project, ["On the Frontlines: Nonprofits Led by People of Color Confront COVID-19 and Structural Racism"](https://buildingmovement.org/wp-content/uploads/2020/10/On-the-Frontlines-COVID-Leaders-of-Color-Final-10.2.20.pdf)
+- {{< fa file-pdf >}} Seth J. Meyer, Elizabeth J. Dale, and Kareem K. M. Willis, "'Where My Gays at?' The Status of LGBTQ People and Queer Theory in Nonprofit Research" [@MeyerDaleWillis:2021] (the PDF for this is on iCollege under "Content".)
+
+
+## Written response question
+
+The formal nonprofit sector has historically been controlled by wealthy white straight men, and the institutional foundations of the sector often benefits these groups of people. How do you think foundations and nonprofits could/should change those institutional structures and enhance the diversity and representativeness of the sector? (Answer in ≈150 words.)

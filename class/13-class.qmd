@@ -1,0 +1,25 @@
+---
+title: "International NGOs"
+date: "2022-11-17"
+---
+
+```{r slides, echo=FALSE, include=FALSE}
+source(here::here("R", "slide-things.R"))
+
+slide_details <- tibble::tribble(
+  ~title, ~slide, ~active,
+  "Introduction", "1", TRUE,
+  "What are INGOs and what do they do?", "ingos", FALSE,
+  "INGOs in dictatorships", "ingos-dictatorships", FALSE
+)
+```
+
+## Readings
+
+- {{< fa file-pdf >}} Andrew Heiss, "NGOs and Authoritarianism" [@Heiss:2019] (the PDF for this is on iCollege under "Content".)
+- {{< fa file-pdf >}} Chapter 1, "Your NGO Starter Kit" in William DeMars, *NGOs and Transnational Networks: Wild Cards in World Politics* [@DeMars:2005] (the PDF for this is on iCollege under "Content".)
+
+
+## Written response question
+
+How and for what reasons do countries (authoritarian or democratic) rely on NGOs? Can an international NGO working in an authoritarian country be complicit in any of that country's human rights abuses? (Answer in ≈150 words.)

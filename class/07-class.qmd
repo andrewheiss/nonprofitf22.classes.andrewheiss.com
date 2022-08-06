@@ -1,0 +1,27 @@
+---
+title: "Fundraising"
+date: "2022-10-06"
+---
+
+```{r slides, echo=FALSE, include=FALSE}
+source(here::here("R", "slide-things.R"))
+
+slide_details <- tibble::tribble(
+  ~title, ~slide, ~active,
+  "Introduction", "1", TRUE,
+  "Why do people give money away?", "altruism", FALSE,
+  "Where does nonprofit money come from?", "nonprofit-revenue", FALSE,
+  "How should nonprofits get money from people?", "best-practices", FALSE
+)
+```
+
+## Readings
+
+- {{< fa book >}} Chapters 8 and 10 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
+- {{< fa file-pdf >}} Pages 107–112 and 131–133 in chapter 6 in Peri H. Pakroo, *Starting & Building a Nonprofit* [@Pakroo:2021] (the PDF for this is on iCollege under "Content".)
+- {{< fa arrow-up-right-from-square >}} Snowball Fundraising, ["Fundamental Grant Proposal Template: 8 Crucial Components"](https://snowballfundraising.com/fundamental-grant-proposal-template/)
+
+
+## Written response question
+
+Discuss whether you feel that the general public is becoming more cynical or weary about the motivations behind nonprofit fundraising appeals. If yes, what steps can nonprofits take to reverse this weariness? If no, explain why not. (Answer in ≈150 words.)

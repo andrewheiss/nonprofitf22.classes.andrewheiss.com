@@ -1,0 +1,31 @@
+---
+title: "Marketing"
+date: "2022-10-20"
+---
+
+```{r slides, echo=FALSE, include=FALSE}
+source(here::here("R", "slide-things.R"))
+
+slide_details <- tibble::tribble(
+  ~title, ~slide, ~active,
+  "Introduction", "1", TRUE,
+  "Marketing theories", "theories", FALSE,
+  "Marketing tools", "tools", FALSE,
+  "Dignity and poverty porn", "dignity", FALSE
+)
+```
+
+## Readings
+
+- {{< fa book >}} Chapter 9 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
+- {{< fa arrow-up-right-from-square >}} Malaka Gharib, ["At What Point Does A Fundraising Ad Go Too Far?"](https://www.npr.org/sections/goatsandsoda/2015/09/30/439162849/at-what-point-does-a-fundraising-ad-go-too-far)
+- {{< fa arrow-up-right-from-square >}} Abhishek Bhati, ["Many global charities refrain from ‘poverty porn’ imagery to raise money from donors, but stereotypes still distort their pictures"](https://theconversation.com/many-global-charities-refrain-from-poverty-porn-imagery-to-raise-money-from-donors-but-stereotypes-still-distort-their-pictures-171576)
+
+This is a helpful checklist that you'll want to review when working on your project. I'd recommend skimming it before class, but you don't need to read it in detail:
+
+- {{< fa file-pdf >}} Chapter 9 in Peri H. Pakroo, *Starting & Building a Nonprofit* [@Pakroo:2021] (the PDF for this is on iCollege under "Content".)
+
+
+## Written response question
+
+Find an example of nonprofit advertising that engages in "poverty porn" and critique it. Why is the advertisement exploitative? What could the organization do to improve the campaign? (Answer in ≈150 words.)

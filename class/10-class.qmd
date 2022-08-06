@@ -1,0 +1,25 @@
+---
+title: "PR, communications, and the internet"
+date: "2022-10-27"
+---
+
+```{r slides, echo=FALSE, include=FALSE}
+source(here::here("R", "slide-things.R"))
+
+slide_details <- tibble::tribble(
+  ~title, ~slide, ~active,
+  "Introduction", "1", TRUE,
+  "Public relations", "pr", FALSE,
+  "Nonprofits and the internet", "internet", FALSE,
+  "Evaluating nonprofit PR", "evaluating", FALSE
+)
+```
+
+## Readings
+
+- {{< fa book >}} Chapters 14, 15, and 16 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
+
+
+## Written response question
+
+What kind of information should be available on a nonprofit organization's website and social networking pages? What information should be available for public access, and what should remain available only to the organization's members and/or board of directors? (Answer in ≈150 words.)

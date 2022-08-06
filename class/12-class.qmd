@@ -1,0 +1,26 @@
+---
+title: "Ethics"
+date: "2022-11-10"
+---
+
+```{r slides, echo=FALSE, include=FALSE}
+source(here::here("R", "slide-things.R"))
+
+slide_details <- tibble::tribble(
+  ~title, ~slide, ~active,
+  "Introduction", "1", TRUE,
+  "Ethics in the nonprofit sector", "nonprofits", FALSE,
+  "Ethical frameworks", "frameworks", FALSE,
+  "An ethics toolkit", "toolkit", FALSE
+)
+```
+
+## Readings
+
+- {{< fa book >}} Chapter 7 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
+- {{< fa tv >}} "The Trolley Problem", *The Good Place* Season 2, Episode 5 (available on Netflix)
+
+
+## Written response question
+
+Should the nonprofit sector be held to a higher ethical standard than its for-profit counterpart? Why or why not? What about compared with the government sector? (Answer in ≈150 words.)

@@ -1,0 +1,25 @@
+---
+title: "Budgeting and financial management"
+date: "2022-10-13"
+---
+
+```{r slides, echo=FALSE, include=FALSE}
+source(here::here("R", "slide-things.R"))
+
+slide_details <- tibble::tribble(
+  ~title, ~slide, ~active,
+  "Introduction", "1", TRUE,
+  "Anatomy of a budget", "anatomy", FALSE,
+  "Financial analysis", "analysis", FALSE
+)
+```
+
+## Readings
+
+- {{< fa book >}} Chapter 11 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
+- {{< fa file-pdf >}}Chapter 3 in Peri H. Pakroo, *Starting & Building a Nonprofit* [@Pakroo:2021] (the PDF for this is on iCollege under "Content".)
+
+
+## Written response question
+
+What control should the board have over the ability of nonprofit executives to spend funds to accomplish organizational objectives? Should nonprofit executives have flexibility to adjust their budgets in response to new conditions without obtaining board approval? (Answer in ≈150 words.)

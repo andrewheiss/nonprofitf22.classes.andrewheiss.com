@@ -1,0 +1,125 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!slides/"
+  resources:
+    - "files/"
+    - "projects/"
+    - "slides/*.html"
+    - "slides/*.pdf"
+    - "slides/img/"
+    - "slides/libs/"
+    - "slides/css/"
+    - "slides/*_files/"
+
+# See https://quarto.org/docs/projects/code-execution.html#freeze
+# execute:
+#   freeze: auto  # Re-render only when source changes
+
+bibliography: files/bib/references.bib
+csl: files/bib/chicago-author-date.csl
+
+website:
+  title: "Introduction to Nonprofits"
+  site-url: "https://nonprofitf22.classes.andrewheiss.com"
+  description-meta: "Discover what nonprofit organizations are, how they work, and how they can improve communities (and the world)"
+
+  favicon: "/files/icon-512.png"
+
+  twitter-card:
+    image: "/files/social-image-f22.png"
+    card-style: summary_large_image
+    creator: "@andrewheiss"
+    # site: "@andrewheiss"
+
+  open-graph:
+    image: "/files/social-image-f22.png"
+    locale: en_US
+
+  navbar:
+    pinned: true
+    background: "#1E466E"
+    right:
+      - syllabus.qmd
+      - schedule.qmd
+      - text: "Classes"
+        file: class/index.qmd
+      - text: "Assignments"
+        file: assignment/index.qmd
+
+  sidebar:
+    - title: "Classes"
+      style: "docked"
+      search: false
+      background: dark
+      contents:
+        - section: "Overview"
+          contents:
+            - class/index.qmd
+        - section: "Classes"
+          contents:
+            - text: "1: Evaluation and the causal revolution"
+              file: class/01-class.qmd
+            - text: "2: History and theory of the nonprofit sector"
+              file: class/02-class.qmd
+            - text: "3: Mission and vision statements"
+              file: class/03-class.qmd
+            - text: "4: Regulatory issues"
+              file: class/04-class.qmd
+            - text: "5: Board governance"
+              file: class/05-class.qmd
+            - text: "6: Personnel"
+              file: class/06-class.qmd
+            - text: "7: Fundraising"
+              file: class/07-class.qmd
+            - text: "8: Budgeting and financial management"
+              file: class/08-class.qmd
+            - text: "9: Marketing"
+              file: class/09-class.qmd
+            - text: "10: PR, communications, and the internet"
+              file: class/10-class.qmd
+            - text: "11: Diversity in the nonprofit sector"
+              file: class/11-class.qmd
+            - text: "12: Ethics"
+              file: class/12-class.qmd
+            - text: "13: International nonprofits"
+              file: class/13-class.qmd
+            - text: "14: Final presentations"
+              file: class/14-class.qmd
+
+    - title: "Assignments"
+      contents:
+        - section: "Overview"
+          contents:
+            - assignment/index.qmd
+        - section: "Individual assignments"
+          contents:
+            - assignment/pre-class-check-in.qmd
+            - assignment/01-why-nonprofits.qmd
+        - section: "Team assignments"
+          contents:
+            - assignment/01-community-issue-mission-vision.qmd
+            - assignment/02-organizational-structure.qmd
+            - assignment/03-budget-revenue-plan.qmd
+            - assignment/04-fundraising-marketing.qmd
+            - assignment/05-dei.qmd
+            - assignment/final-project.qmd
+
+  page-footer:
+    left: |
+      Content {{< fa brands creative-commons >}} {{< var course.copyright_year >}} by [{{< var instructor.name_no_title >}}]({{< var instructor.url >}}) <br>
+      All content licensed under a {{< fa brands creative-commons >}}
+      {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}}
+      [Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
+    right: |
+      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
+      [View the source at {{< fa brands github >}} GitHub]({{< var course.github >}})
+
+format:
+  html:
+    theme:
+      - litera
+      - html/custom.scss
+    toc: true
+    highlight-style: monokai
