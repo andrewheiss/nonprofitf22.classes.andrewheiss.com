@@ -5,7 +5,6 @@ project:
     - "!slides/"
   resources:
     - "files/"
-    - "projects/"
     - "slides/*.html"
     - "slides/*.pdf"
     - "slides/img/"
@@ -25,7 +24,7 @@ website:
   site-url: "https://nonprofitf22.classes.andrewheiss.com"
   description-meta: "Discover what nonprofit organizations are, how they work, and how they can improve communities (and the world)"
 
-  favicon: "/files/icon-512.png"
+  favicon: "/files/favicon-512.png"
 
   twitter-card:
     image: "/files/social-image-f22.png"
