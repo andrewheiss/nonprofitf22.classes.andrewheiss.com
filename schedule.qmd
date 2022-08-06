@@ -24,7 +24,7 @@ ical_url_absolute <- paste0(base_url, "/", schedule_ical_file)
 
 Here's your roadmap for the semester!
 
-- [**Class**](/class/index.qmd) ({{< fa chalkboard-teacher >}}): This page contains the readings and slides for the class session. Read these **before** our in-person class.
+- [**Class**](/class/index.qmd) ({{< fa book-open-reader >}}): This page contains the readings and slides for the class session. Read these **before** our in-person class.
 
 - [**Assignment**](/assignment/index.qmd) ({{< fa pen-ruler >}}): This page contains the instructions for each assignment. Assignments are due by **11:59 PM** on the day they're listed.
 

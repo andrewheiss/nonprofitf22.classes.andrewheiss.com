@@ -13,7 +13,7 @@ You will write a paper covering two related topics. Use headings and subheadings
 
 As a team, create a strategic marketing plan for your nonprofit. Use this template, adapted from [HubSpot's template](https://blog.hubspot.com/marketing/marketing-plan-template-generator):
 
-- <i class="fas fa-file-alt"></i> [Marketing plan template](https://docs.google.com/document/d/1Eo1jCSBfVhnavfPSQ0CtmOuH-pfT763UvKQ3ZCXKR1o/copy)
+- {{< fa file-alt >}} [Marketing plan template](https://docs.google.com/document/d/1Eo1jCSBfVhnavfPSQ0CtmOuH-pfT763UvKQ3ZCXKR1o/copy)
 
 I'd *highly recommend* [generating a template from HubSpot](https://offers.hubspot.com/marketing-plan-template) and scrolling down to around page 22—they've included a fully worked out example for a hypothetical organization that you can reference.
 
@@ -26,7 +26,7 @@ As a team, write a short (≈200 word) press release about one of your organizat
 
 As a team, write a grant for $50,000 from a hypothetical foundation that funds similar nonprofits. **This grant needs to be used for a specific program that your organization provides** (i.e. it's not just money that will go to the nonprofit's general fund).
 
-Your grant proposal should include the following sections (remember the resources from the [readings on fundraising](/class/13-class/); this outline follows the "Sections of a Grant Application" section from Grobman, chapter 10):
+Your grant proposal should include the following sections (remember the resources from the [readings on fundraising](/class/13-class.qmd); this outline follows the "Sections of a Grant Application" section from Grobman, chapter 10):
 
 1. Introduction
 2. Statement of need
@@ -40,7 +40,7 @@ There's no official word limit guidance for this section—it definitely shouldn
 
 If you want, you can use this template (but you don't have to):
 
-- <i class="fas fa-file-alt"></i> [Grant proposal template](https://docs.google.com/document/d/1erluiLEfNDp1truDgveJP9NWsLCDiwe4rfu0YkKXPgs/copy)
+- {{< fa file-alt >}} [Grant proposal template](https://docs.google.com/document/d/1erluiLEfNDp1truDgveJP9NWsLCDiwe4rfu0YkKXPgs/copy)
 
 
 ## Turning it in

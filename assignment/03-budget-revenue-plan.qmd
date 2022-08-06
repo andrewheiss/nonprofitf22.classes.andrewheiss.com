@@ -13,7 +13,7 @@ In ≈500 words, describe how your organization will generate revenue. Will it r
 
 Justify your primary and secondary revenue sources and explain how these sources of money fit with the nonprofit's mission, vision, and values.
 
-Discuss your concerns with each of the sources of revenue you're pursuing and explain how to mitigate those concerns (recall the content from [the class session on fundraising](/class/13-class/): volatility, goal displacement, and process & structure effects).
+Discuss your concerns with each of the sources of revenue you're pursuing and explain how to mitigate those concerns (recall the content from [the class session on fundraising](/class/13-class.qmd): volatility, goal displacement, and process & structure effects).
 
 ### 2: Budget
 
