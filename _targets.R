@@ -38,6 +38,9 @@ list(
                        here_rel("files", "schedule.ics")),
              format = "file"),
 
+  ## Knit the README ----
+  tar_render(readme, here_rel("README.Rmd")),
+
   ## Build site ----
   tar_quarto(site, path = "."),
 
