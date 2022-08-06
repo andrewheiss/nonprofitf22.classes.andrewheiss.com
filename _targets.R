@@ -31,12 +31,22 @@ list(
   ## Class schedule calendar ----
   tar_target(schedule_file, here_rel("data", "schedule.csv"), format = "file"),
   tar_target(schedule_page_data, build_schedule_for_page(schedule_file)),
-  tar_target(schedule_ical_data, build_ical(schedule_file, base_url, page_suffix, class_number)),
+  tar_target(schedule_ical_data, build_ical(schedule_file, base_url,
+                                            page_suffix, class_number)),
   tar_target(schedule_ical_file,
              save_ical(schedule_ical_data,
                        here_rel("files", "schedule.ics")),
              format = "file"),
 
   ## Build site ----
-  tar_quarto(site, path = ".")
+  tar_quarto(site, path = "."),
+
+  ## Upload site ----
+  tar_target(deploy_script, here_rel("deploy.sh"), format = "file"),
+  tar_target(deploy_site, {
+    # Force dependencies
+    site
+    # Run the deploy script
+    if (Sys.getenv("UPLOAD_WEBSITES") == "TRUE") processx::run(paste0("./", deploy_script))
+  })
 )
