@@ -59,7 +59,7 @@ website:
             - class/index.qmd
         - section: "Classes"
           contents:
-            - text: "1: Evaluation and the causal revolution"
+            - text: "1: Defining the nonprofit sector"
               file: class/01-class.qmd
             - text: "2: History and theory of the nonprofit sector"
               file: class/02-class.qmd
