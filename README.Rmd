@@ -42,7 +42,7 @@ targets::tar_make()
 
 The pipeline does several major tasks:
 
-- **Render xaringan slides to HTML and PDF**: Quarto supports HTML-based slideshows through [reveal.js](https://quarto.org/docs/presentations/revealjs/). However, I created all my slides using [{xaringan}](https://github.com/yihui/xaringan), which is based on [remark.js](https://remarkjs.com/) and doesn't work with Quarto. Since (1) I recorded all the class videos using my {xaringan} slides with a fancy template I made, and (2) I don't want to recreate my fancy template in reveal.js yet, I want to keep using {xaringan}. 
+- **Render xaringan slides to HTML and PDF**: Quarto supports HTML-based slideshows through [reveal.js](https://quarto.org/docs/presentations/revealjs/). However, I created all my slides using [{xaringan}](https://github.com/yihui/xaringan), which is based on [remark.js](https://remarkjs.com/) and doesn't work with Quarto. Since I don't have time to recreate my fancy template in reveal.js right now, I want to keep using {xaringan}. 
   
   The pipeline [dynamically generates targets](https://books.ropensci.org/targets/dynamic.html) for all the `.Rmd` files in [`/slides/`](/slides/) and renders them using R Markdown rather than Quarto.
   
