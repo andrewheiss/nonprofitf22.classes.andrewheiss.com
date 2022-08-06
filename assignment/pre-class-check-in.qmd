@@ -2,7 +2,9 @@
 title: "Pre-class check-in"
 ---
 
-<div class="due-date p-2 mb-3 bg-assignment text-white">Due at the beginning of each class session</div>                    
+<div class="date-block bg-assignment text-white p-2 fake-date-block">
+<p class="date">Due by noon on each Thursday before class</p>
+</div>
 
 To encourage attendance and preparation, I use an honor-system-based self-reporting system. Before coming to class, you'll need to fill out this pre-class check-in on iCollege:
 

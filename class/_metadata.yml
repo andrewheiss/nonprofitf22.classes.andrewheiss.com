@@ -1,6 +1,6 @@
 date-heading:
-  content: "Content for"
-  class: "bg-content"
+  content: "Readings and class materials for"
+  class: "bg-class"
 date-format: "full"
 
 format:

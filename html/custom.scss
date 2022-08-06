@@ -130,11 +130,11 @@ ol {
 
 
 // Schedule stuff
-.content-title {
+.class-title {
   font-weight: 700;
 }
 
-.content-note {
+.class-note {
   font-size: 0.8rem;
   display: block;
 }
@@ -153,23 +153,6 @@ ol {
 }
 
 
-// News stuff
-.back-nav {
-  margin-bottom: 1.5rem;
-}
-
-.news .quarto-title-meta {
-  font-size: 1.1rem;
-  border-left: 5px solid $orange;
-  padding: 0 0.5rem 1rem;
-  margin: 1rem 0 2.5rem;
-  background-color: lighten($orange, 40%);
-}
-
-.news .quarto-categories {
-  padding-top: 0.5em;
-}
-
 
 // Content page stuff
 // Date bar
@@ -177,12 +160,20 @@ ol {
   font-size: 1.3rem;
 }
 
-.bg-content {
-  background-color: $pink;
+.bg-class {
+  background-color: $orange;
 }
 
 .bg-assignment {
   background-color: $red;
+}
+
+.fake-date-block {
+  margin-bottom: 1em;
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 // Slightly larger buttons
