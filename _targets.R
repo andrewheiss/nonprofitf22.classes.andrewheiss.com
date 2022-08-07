@@ -23,11 +23,44 @@ tar_option_set(
 here_rel <- function(...) {fs::path_rel(here::here(...))}
 
 # Load functions for the pipeline
-# source("R/tar_slides.R")
+source("R/tar_slides.R")
 source("R/tar_calendar.R")
 
 # THE MAIN PIPELINE ----
 list(
+  ## xaringan stuff ----
+  #
+  ### Knit xaringan slides ----
+  #
+  # Use dynamic branching to get a list of all .Rmd files in slides/ and knit them
+  #
+  # The main index.qmd page loads xaringan_slides as a target to link it as a dependency
+  tar_files(xaringan_files, list.files(here_rel("slides"),
+                                       pattern = "\\.Rmd",
+                                       full.names = TRUE)),
+  tar_target(xaringan_slides,
+             render_xaringan(xaringan_files),
+             pattern = map(xaringan_files),
+             format = "file"),
+
+  ### Convert xaringan HTML slides to PDF ----
+  #
+  # Use dynamic branching to get a list of all knitted slide .html files and
+  # convert them to PDF with pagedown
+  #
+  # The main index.qmd page loads xaringan_pdfs as a target to link it as a dependency
+  tar_files(xaringan_html_files, {
+    xaringan_slides
+    list.files(here_rel("slides"),
+               pattern = "\\.html",
+               full.names = TRUE)
+  }),
+  tar_target(xaringan_pdfs,
+             xaringan_to_pdf(xaringan_html_files),
+             pattern = map(xaringan_html_files),
+             format = "file"),
+
+
   ## Class schedule calendar ----
   tar_target(schedule_file, here_rel("data", "schedule.csv"), format = "file"),
   tar_target(schedule_page_data, build_schedule_for_page(schedule_file)),
@@ -38,11 +71,14 @@ list(
                        here_rel("files", "schedule.ics")),
              format = "file"),
 
+
   ## Knit the README ----
   tar_render(readme, here_rel("README.Rmd")),
 
+
   ## Build site ----
   tar_quarto(site, path = "."),
+
 
   ## Upload site ----
   tar_target(deploy_script, here_rel("deploy.sh"), format = "file"),
