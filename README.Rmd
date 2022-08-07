@@ -52,7 +52,6 @@ The pipeline does several major tasks:
 
 - **Upload resulting `_site/` folder to my remote server**: Quarto places the compiled website in a folder named `/_site/`. The pipeline uses `rsync` to upload this folder to my personal remote server. This target will only run if the `UPLOAD_WEBSITES` environment variable is set to `TRUE`, and it will only work if you have an SSH key set up on my personal server, which only I do.
 
-
 The complete pipeline looks like this:
 
 <small>(This uses [`mermaid.js` syntax](https://mermaid-js.github.io/mermaid/) and should display as a graph on GitHub. You can also view it by pasting the code into <https://mermaid.live>.)</small>
