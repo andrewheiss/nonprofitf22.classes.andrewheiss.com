@@ -26,6 +26,7 @@ here_rel <- function(...) {fs::path_rel(here::here(...))}
 source("R/tar_slides.R")
 source("R/tar_calendar.R")
 
+
 # THE MAIN PIPELINE ----
 list(
   ## xaringan stuff ----
@@ -73,6 +74,8 @@ list(
 
 
   ## Knit the README ----
+  tar_target(workflow_graph, tar_mermaid(targets_only = TRUE, outdated = FALSE,
+                                         legend = FALSE, color = FALSE)),
   tar_render(readme, here_rel("README.Rmd")),
 
 
