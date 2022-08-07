@@ -3,6 +3,7 @@ project:
   render:
     - "*.qmd"
     - "!slides/"
+    - "!slides-archive/"
   resources:
     - "files/"
     - "slides/*.html"

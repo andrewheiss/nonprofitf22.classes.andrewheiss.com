@@ -1,0 +1,620 @@
+.grey { color: #ababab; }
+
+/* 
+Typography
+*/
+.remark-slide-content {
+  font-size: 40px;
+  /* Base font size */
+  padding: 1em 1em 1em 1em;
+}
+
+.remark-slide-content p {
+  margin: 0.5em 0;
+}
+
+.remark-slide-content h1 {
+  font-size: 1.7em;
+  line-height: 1em;
+  margin-top: 0;
+  text-align: center;
+}
+
+.huge {
+  font-size: 2.2em;
+}
+
+.large {
+  font-size: 1.7em;
+}
+
+.normal {
+  font-size: 1em;
+}
+
+.medium {
+  font-size: 1.4em;
+}
+
+.less-medium {
+  font-size: 1.2em;
+}
+
+.SMALL {
+  /* CURSE YOU LATEX */
+  font-size: 0.9em;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.smaller {
+  font-size: 0.65em;
+}
+
+.tiny {
+  font-size: 0.5em;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.remark-slide-number {
+  font-size: 15px;
+}
+
+figure {
+  margin: 15px;
+}
+
+figcaption {
+  font-size: 0.5em;
+}
+
+.pull-left h2,
+.pull-right h2,
+.pull-left-3 h2,
+.pull-middle-3 h2,
+.pull-right-3 h2 {
+  margin-top: 0.3em;
+}
+
+.cell-left {
+  text-align: left;
+}
+
+.cell-right {
+  text-align: right;
+}
+
+.cell-center {
+  text-align: center;
+}
+
+.frame {
+  border: 1px #000000 solid;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.bg-full {
+  background-size: cover;
+}
+
+.bg-90 {
+  background-size: 90%;
+  background-position-y: 30%;
+}
+
+.bg-y-75 {
+  background-position-y: 75%;
+}
+
+.sp-before {
+  margin-top: 1em !important;
+}
+
+.sp-before {
+  margin-top: 0.7em !important;
+}
+
+.sp-after {
+  margin-bottom: 1em !important;
+}
+
+.sp-after-half {
+  margin-bottom: 0.7em !important;
+}
+
+.remark-code,
+.remark-inline-code {
+  font-size: 0.75em;
+}
+
+/* Side-by-side code/plot stuff https://www.garrickadenbuie.com/blog/decouple-code-and-output-in-xaringan-slides/ */
+.left-code {
+  color: #777;
+  width: 48%;
+  height: 92%;
+  float: left;
+}
+
+.right-plot {
+  width: 50%;
+  float: right;
+  padding-left: 1%;
+}
+
+.right-code {
+  color: #777;
+  width: 48%;
+  height: 92%;
+  float: right;
+}
+
+.left-plot {
+  width: 50%;
+  float: left;
+  padding-right: 1%;
+}
+
+.left-code .remark-code,
+.left-code .remark-inline-code,
+.right-code .remark-code,
+.right-code .remark-inline-code {
+  font-size: 0.5em;
+}
+
+.small-code .remark-code,
+.small-code .remark-inline-code {
+  font-size: 0.5em;
+}
+
+/* 
+Main title and section title slides
+*/
+.main-title {
+  color: #FFFFFF;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.main-title h1 {
+  font-weight: 900;
+  font-size: 2.8em;
+  line-height: 1.2;
+  margin-bottom: 2em;
+}
+
+.main-title p {
+  font-size: 0.8em;
+}
+
+.main-title .class-info {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: calc(0% + 0.5em);
+}
+
+.section-title h1,
+.section-title-inv h1 {
+  color: #FFFFFF;
+  font-size: 2.3em;
+  line-height: 1.3;
+}
+
+/* 
+Three column layout
+*/
+.pull-left-3 {
+  float: left;
+  width: 30%;
+  padding: 0 2.5% 0 0;
+}
+
+.pull-middle-3 {
+  float: left;
+  width: 30%;
+  padding: 0 2.5%;
+}
+
+.pull-right-3 {
+  float: right;
+  width: 30%;
+  padding: 0 0 0 2.5%;
+}
+
+.pull-right-3 ~ * {
+  clear: both;
+}
+
+/*
+Wider pull left/right
+*/
+.pull-left-wide {
+  float: left;
+  width: 65%;
+}
+
+.pull-left-narrow {
+  float: left;
+  width: 32%;
+}
+
+.pull-right-wide {
+  float: right;
+  width: 65%;
+}
+
+.pull-right-narrow {
+  float: right;
+  width: 32%;
+}
+
+.pull-right-narrow ~ *,
+.pull-right-wide ~ * {
+  clear: both;
+}
+
+/* 
+Slides with title bars at the top
+*/
+.title {
+  padding-top: 0em;
+  border-top: 110px solid #777777;
+}
+
+.title h1 {
+  margin-top: -85px;
+  margin-bottom: 50px;
+}
+
+.title-1 {
+  border-top-color: #e76254;
+}
+
+.title-2 {
+  border-top-color: #ef8a47;
+}
+
+.title-3 {
+  border-top-color: #f7aa58;
+}
+
+.title-4 {
+  border-top-color: #ffd06f;
+}
+
+.title-5 {
+  border-top-color: #72bcd5;
+}
+
+.title-6 {
+  border-top-color: #528fad;
+}
+
+.title-7 {
+  border-top-color: #376795;
+}
+
+.title-8 {
+  border-top-color: #1e466e;
+}
+
+.title-inv-1 {
+  border-top-color: #FCE2DF;
+}
+
+.title-inv-2 {
+  border-top-color: #FDEADC;
+}
+
+.title-inv-3 {
+  border-top-color: #FEF0E0;
+}
+
+.title-inv-4 {
+  border-top-color: #FFF7E4;
+}
+
+.title-inv-5 {
+  border-top-color: #E4F3F8;
+}
+
+.title-inv-6 {
+  border-top-color: #DDEBF0;
+}
+
+.title-inv-7 {
+  border-top-color: #D2E4F0;
+}
+
+.title-inv-8 {
+  border-top-color: #BFDFF5;
+}
+
+/*
+General color classes
+*/
+.color-1 {
+  color: #e76254;
+}
+
+.color-2 {
+  color: #ef8a47;
+}
+
+.color-3 {
+  color: #f7aa58;
+}
+
+.color-4 {
+  color: #ffd06f;
+}
+
+.color-5 {
+  color: #72bcd5;
+}
+
+.color-6 {
+  color: #528fad;
+}
+
+.color-7 {
+  color: #376795;
+}
+
+.color-8 {
+  color: #1e466e;
+}
+
+.color-light-1 {
+  color: #FCE2DF;
+}
+
+.color-light-2 {
+  color: #FDEADC;
+}
+
+.color-light-3 {
+  color: #FEF0E0;
+}
+
+.color-light-4 {
+  color: #FFF7E4;
+}
+
+.color-light-5 {
+  color: #E4F3F8;
+}
+
+.color-light-6 {
+  color: #DDEBF0;
+}
+
+.color-light-7 {
+  color: #D2E4F0;
+}
+
+.color-light-8 {
+  color: #BFDFF5;
+}
+
+/* 
+Coloring and inverse coloring in title bars and content boxes
+*/
+.box-1,
+.section-title-1 {
+  background-color: #e76254;
+}
+
+.box-2,
+.section-title-2 {
+  background-color: #ef8a47;
+}
+
+.box-3,
+.section-title-3 {
+  background-color: #f7aa58;
+}
+
+.box-4,
+.section-title-4 {
+  background-color: #ffd06f;
+}
+
+.box-5,
+.section-title-5 {
+  background-color: #72bcd5;
+}
+
+.box-6,
+.section-title-6 {
+  background-color: #528fad;
+}
+
+.box-7,
+.section-title-7 {
+  background-color: #376795;
+}
+
+.box-8,
+.section-title-8 {
+  background-color: #1e466e;
+}
+
+.box-inv-1,
+.section-title-inv-1 {
+  background-color: #FCE2DF;
+}
+
+.box-inv-2,
+.section-title-inv-2 {
+  background-color: #FDEADC;
+}
+
+.box-inv-3,
+.section-title-inv-3 {
+  background-color: #FEF0E0;
+}
+
+.box-inv-4,
+.section-title-inv-4 {
+  background-color: #FFF7E4;
+}
+
+.box-inv-5,
+.section-title-inv-5 {
+  background-color: #E4F3F8;
+}
+
+.box-inv-6,
+.section-title-inv-6 {
+  background-color: #DDEBF0;
+}
+
+.box-inv-7,
+.section-title-inv-7 {
+  background-color: #D2E4F0;
+}
+
+.box-inv-8,
+.section-title-inv-8 {
+  background-color: #BFDFF5;
+}
+
+.box-inv-1,
+.title-inv-1 h1,
+.section-title-inv-1 h1 {
+  color: #e76254;
+}
+
+.box-inv-2,
+.title-inv-2 h1,
+.section-title-inv-2 h1 {
+  color: #ef8a47;
+}
+
+.box-inv-3,
+.title-inv-3 h1,
+.section-title-inv-3 h1 {
+  color: #f7aa58;
+}
+
+.box-inv-4,
+.title-inv-4 h1,
+.section-title-inv-4 h1 {
+  color: #ffd06f;
+}
+
+.box-inv-5,
+.title-inv-5 h1,
+.section-title-inv-5 h1 {
+  color: #72bcd5;
+}
+
+.box-inv-6,
+.title-inv-6 h1,
+.section-title-inv-6 h1 {
+  color: #528fad;
+}
+
+.box-inv-7,
+.title-inv-7 h1,
+.section-title-inv-7 h1 {
+  color: #376795;
+}
+
+.box-inv-8,
+.title-inv-8 h1,
+.section-title-inv-8 h1 {
+  color: #1e466e;
+}
+
+.box-8, .box-7, .box-6, .box-5, .box-4, .box-3, .box-2, .box-1, .title-8 h1, .title-7 h1, .title-6 h1, .title-5 h1, .title-4 h1, .title-3 h1, .title-2 h1, .title-1 h1, .section-title h1 {
+  color: #FFFFFF;
+}
+
+.box-8, .box-inv-8, .box-7, .box-inv-7, .box-6, .box-inv-6, .box-5, .box-inv-5, .box-4, .box-inv-4, .box-3, .box-inv-3, .box-2, .box-inv-2, .box-1, .box-inv-1 {
+  margin: 0em auto;
+  overflow: hidden;
+  padding: 0.1em 0.4em;
+  font-weight: 600;
+  display: table;
+  text-align: center;
+}
+
+.float-left {
+  text-align: left;
+}
+
+.float-right {
+  text-align: right;
+}
+
+.float-left .box-1, .float-left .box-inv-1,
+.float-right .box-1, .float-right .box-inv-1 {
+  display: inline;
+}
+
+.float-left .box-2, .float-left .box-inv-2,
+.float-right .box-2, .float-right .box-inv-2 {
+  display: inline;
+}
+
+.float-left .box-3, .float-left .box-inv-3,
+.float-right .box-3, .float-right .box-inv-3 {
+  display: inline;
+}
+
+.float-left .box-4, .float-left .box-inv-4,
+.float-right .box-4, .float-right .box-inv-4 {
+  display: inline;
+}
+
+.float-left .box-5, .float-left .box-inv-5,
+.float-right .box-5, .float-right .box-inv-5 {
+  display: inline;
+}
+
+.float-left .box-6, .float-left .box-inv-6,
+.float-right .box-6, .float-right .box-inv-6 {
+  display: inline;
+}
+
+.float-left .box-7, .float-left .box-inv-7,
+.float-right .box-7, .float-right .box-inv-7 {
+  display: inline;
+}
+
+.float-left .box-8, .float-left .box-inv-8,
+.float-right .box-8, .float-right .box-inv-8 {
+  display: inline;
+}
+
+/* Corner ribbon */
+/* Adapted from https://codepen.io/eode9/pen/twkKm */
+.corner-ribbon {
+  width: 425px;
+  position: fixed;
+  top: auto;
+  bottom: 50px;
+  left: -85px;
+  transform: rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 0.6em;
+  padding: 0.25em 0;
+  background: #e76254;
+  color: #FFFFFF;
+}
