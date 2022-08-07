@@ -9,6 +9,14 @@
     ]
   },
   "Packages": {
+    "AsioHeaders": {
+      "Package": "AsioHeaders",
+      "Version": "1.22.1-1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "57ed34bcad0158fafd9cbdd85bd26881",
+      "Requirements": []
+    },
     "DBI": {
       "Package": "DBI",
       "Version": "1.1.3",
@@ -140,6 +148,22 @@
         "vctrs"
       ]
     },
+    "bookdown": {
+      "Package": "bookdown",
+      "Version": "0.27",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "249ccee87c5a8def5cb459fd0809cca4",
+      "Requirements": [
+        "htmltools",
+        "jquerylib",
+        "knitr",
+        "rmarkdown",
+        "tinytex",
+        "xfun",
+        "yaml"
+      ]
+    },
     "broom": {
       "Package": "broom",
       "Version": "1.0.0",
@@ -203,6 +227,17 @@
       "Requirements": [
         "fastmap",
         "rlang"
+      ]
+    },
+    "calendar": {
+      "Package": "calendar",
+      "Version": "0.0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ab478f470a5203ff9990e42d916005b0",
+      "Requirements": [
+        "lubridate",
+        "tibble"
       ]
     },
     "callr": {
@@ -292,6 +327,23 @@
       "Repository": "CRAN",
       "Hash": "2ba81b120c1655ab696c935ef33ea716",
       "Requirements": []
+    },
+    "countdown": {
+      "Package": "countdown",
+      "Version": "0.3.5",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "countdown",
+      "RemoteUsername": "gadenbuie",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "a544fa48e2248996002e059ca07ad620d2aec3a8",
+      "Hash": "6b12950bdf51b8a0e865979aad44cdaa",
+      "Requirements": [
+        "callr",
+        "htmltools",
+        "whisker"
+      ]
     },
     "cpp11": {
       "Package": "cpp11",
@@ -404,6 +456,18 @@
       "Hash": "bb0eec2fe32e88d9e2836c2f73ea2077",
       "Requirements": [
         "rlang"
+      ]
+    },
+    "emoji": {
+      "Package": "emoji",
+      "Version": "0.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ce4f0b8663842eb40127ab0d3bf51adc",
+      "Requirements": [
+        "glue",
+        "stringr",
+        "tibble"
       ]
     },
     "evaluate": {
@@ -743,6 +807,31 @@
         "openssl"
       ]
     },
+    "icons": {
+      "Package": "icons",
+      "Version": "0.2.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "icons",
+      "RemoteUsername": "mitchelloharawild",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "6e4dc378ac86c1d4f4ea167f408bed07b3df14fb",
+      "Hash": "1ca4478a3466cb5d4b30b93c0b33036c",
+      "Requirements": [
+        "cli",
+        "crayon",
+        "glue",
+        "htmltools",
+        "jsonlite",
+        "knitr",
+        "rappdirs",
+        "rlang",
+        "rstudioapi",
+        "stringr",
+        "xml2"
+      ]
+    },
     "ids": {
       "Package": "ids",
       "Version": "1.0.1",
@@ -792,6 +881,34 @@
       "Repository": "CRAN",
       "Hash": "d07e729b27b372429d42d24d503613a0",
       "Requirements": []
+    },
+    "kableExtra": {
+      "Package": "kableExtra",
+      "Version": "1.3.4.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "kableExtra",
+      "RemoteUsername": "haozhu233",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "292f60715959ea952ff25a8aedfd782793b15f7b",
+      "Hash": "1431414cc4a62b0ec90f1d08401fdd19",
+      "Requirements": [
+        "digest",
+        "glue",
+        "htmltools",
+        "knitr",
+        "magrittr",
+        "rmarkdown",
+        "rstudioapi",
+        "rvest",
+        "scales",
+        "stringr",
+        "svglite",
+        "viridisLite",
+        "webshot",
+        "xml2"
+      ]
     },
     "knitr": {
       "Package": "knitr",
@@ -862,6 +979,18 @@
       "Requirements": [
         "cpp11",
         "generics"
+      ]
+    },
+    "magick": {
+      "Package": "magick",
+      "Version": "2.7.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "56fbad418aa50939ed8c3028126af8d7",
+      "Requirements": [
+        "Rcpp",
+        "curl",
+        "magrittr"
       ]
     },
     "magrittr": {
@@ -969,6 +1098,36 @@
       "Hash": "6d3bef2e305f55c705c674653c7d7d3d",
       "Requirements": [
         "askpass"
+      ]
+    },
+    "pagedown": {
+      "Package": "pagedown",
+      "Version": "0.18",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "3a7a335accfe88e3614efafd2bb98bef",
+      "Requirements": [
+        "bookdown",
+        "htmltools",
+        "httpuv",
+        "jsonlite",
+        "later",
+        "processx",
+        "rmarkdown",
+        "servr",
+        "websocket",
+        "xfun"
+      ]
+    },
+    "pander": {
+      "Package": "pander",
+      "Version": "0.6.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "737924139a1e4fc96356ff377c754c35",
+      "Requirements": [
+        "Rcpp",
+        "digest"
       ]
     },
     "parallelly": {
@@ -1137,6 +1296,26 @@
         "tibble"
       ]
     },
+    "renderthis": {
+      "Package": "renderthis",
+      "Version": "0.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "0d8a6c3de76dbb10c27b61566e890b64",
+      "Requirements": [
+        "cli",
+        "digest",
+        "fs",
+        "jsonlite",
+        "magick",
+        "pagedown",
+        "progress",
+        "rmarkdown",
+        "withr",
+        "xaringan",
+        "zip"
+      ]
+    },
     "renv": {
       "Package": "renv",
       "Version": "0.15.5",
@@ -1265,6 +1444,19 @@
         "stringr"
       ]
     },
+    "servr": {
+      "Package": "servr",
+      "Version": "0.24",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e2c3e268d654becf0d78a1ec13a05b46",
+      "Requirements": [
+        "httpuv",
+        "jsonlite",
+        "mime",
+        "xfun"
+      ]
+    },
     "shiny": {
       "Package": "shiny",
       "Version": "1.7.2",
@@ -1350,6 +1542,17 @@
         "stringi"
       ]
     },
+    "svglite": {
+      "Package": "svglite",
+      "Version": "2.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "68dfdf211af6aa4e5f050f064f64d401",
+      "Requirements": [
+        "cpp11",
+        "systemfonts"
+      ]
+    },
     "sys": {
       "Package": "sys",
       "Version": "3.4",
@@ -1357,6 +1560,16 @@
       "Repository": "CRAN",
       "Hash": "b227d13e29222b4574486cfcbde077fa",
       "Requirements": []
+    },
+    "systemfonts": {
+      "Package": "systemfonts",
+      "Version": "1.0.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "90b28393209827327de889f49935140a",
+      "Requirements": [
+        "cpp11"
+      ]
     },
     "tarchetypes": {
       "Package": "tarchetypes",
@@ -1602,6 +1815,39 @@
         "shiny"
       ]
     },
+    "webshot": {
+      "Package": "webshot",
+      "Version": "0.5.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "7261ab7f98e97c771217e6b87c085d6e",
+      "Requirements": [
+        "callr",
+        "jsonlite",
+        "magrittr"
+      ]
+    },
+    "websocket": {
+      "Package": "websocket",
+      "Version": "1.4.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "76e0d400757e318cca33def29ccebbc2",
+      "Requirements": [
+        "AsioHeaders",
+        "R6",
+        "cpp11",
+        "later"
+      ]
+    },
+    "whisker": {
+      "Package": "whisker",
+      "Version": "0.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ca970b96d894e90397ed20637a0c1bbe",
+      "Requirements": []
+    },
     "withr": {
       "Package": "withr",
       "Version": "2.5.0",
@@ -1609,6 +1855,33 @@
       "Repository": "CRAN",
       "Hash": "c0e49a9760983e81e55cdd9be92e7182",
       "Requirements": []
+    },
+    "xaringan": {
+      "Package": "xaringan",
+      "Version": "0.25",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d6123c2291c16c8e318c69a2630fa23c",
+      "Requirements": [
+        "htmltools",
+        "knitr",
+        "rmarkdown",
+        "servr",
+        "xfun"
+      ]
+    },
+    "xaringanExtra": {
+      "Package": "xaringanExtra",
+      "Version": "0.7.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b700278c14be355c081d130d48abc83d",
+      "Requirements": [
+        "htmltools",
+        "jsonlite",
+        "knitr",
+        "uuid"
+      ]
     },
     "xfun": {
       "Package": "xfun",
@@ -1640,6 +1913,14 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "458bb38374d73bf83b1bb85e353da200",
+      "Requirements": []
+    },
+    "zip": {
+      "Package": "zip",
+      "Version": "2.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c7eef2996ac270a18c2715c997a727c5",
       "Requirements": []
     }
   }
