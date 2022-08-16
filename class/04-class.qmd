@@ -23,3 +23,8 @@ slide_details <- tibble::tribble(
 ## Written response question
 
 Why did Congress prohibit tax-exempt charities from engaging in partisan political activity? Are there reasons to think that this prohibition is unwise in every case? Why did Congress prohibit "substantial lobbying" rather than all lobbying? Why is some amount of nonprofit political lobbying okay? (Answer in ≈150 words.)
+
+
+## Team prep work
+
+Write a statement arguing for or against whether your team's nonprofit should be incorporated, have membership, and apply for tax-exempt status. You'll spend class time coming to a consensus about incorporation and membership. (Answer in ≈75 words.)

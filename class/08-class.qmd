@@ -23,3 +23,8 @@ slide_details <- tibble::tribble(
 ## Written response question
 
 What control should the board have over the ability of nonprofit executives to spend funds to accomplish organizational objectives? Should nonprofit executives have flexibility to adjust their budgets in response to new conditions without obtaining board approval? (Answer in ≈150 words.)
+
+
+## Team prep work
+
+Put together a basic, preliminary, balanced budget for your nonprofit to propose to your team. You'll spend class time creating and finalizing your organization's budget.

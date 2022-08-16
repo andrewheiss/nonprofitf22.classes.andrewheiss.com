@@ -17,14 +17,22 @@ slide_details <- tibble::tribble(
 
 ## Readings
 
-- {{< fa book >}} Chapter 1 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
-- {{< fa video >}} Dan Pallotta, ["The way we think about charity is dead wrong"](https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong?language=en)
+- {{< fa book >}} Chapters 2 and 3 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
+- {{< fa file-pdf >}} Monash University Engineering Department, ["Learning effectively through groupwork"](https://www.monash.edu/__data/assets/pdf_file/0004/506434/groupwork.pdf)
+- {{< fa arrow-up-right-from-square >}} University of Waterloo's Centre for Teaching Excellence, ["Teamwork Skills: Being an Effective Group Member"](https://uwaterloo.ca/centre-for-teaching-excellence/teaching-resources/teaching-tips/tips-students/being-part-team/teamwork-skills-being-effective-group-member)
+- {{< fa arrow-up-right-from-square >}} Jayson Demers, ["8 Teamwork Tips for Working with Unfamiliar Co-Workers"](https://www.inc.com/jayson-demers/8-teamwork-tips-for-working-with-unfamiliar-coworkers.html)
 
 
 ## Written response question
 
-This time there are two parts, one short and one longer. 
+Explore this question in ≈150 words, based on your readings for today: 
 
-1. What social issue or type of nonprofit are you most interested in? (**This should just a sentence or two!; this is just to help me sort you into teams.**)
+> Do you think that the growth of federal spending for the welfare state in the mid-20th century (for instance, under Lyndon B. Johnson’s War on Poverty) stimulated or hindered the growth of the nonprofit sector in the United States? What other social consequences have there been as a result of turning to nonprofits for welfare services?
 
-2. Why did so many of the "robber barons" from the late 19th/early 20th century (Carnegie, Rockefeller, etc.) donate to create nonprofit organizations and foundations, rather than keep all their money for themselves and their families? What parallels do you see between them and modern-day billionaire philanthropists like Bill and Melinda Gates, Jeff Bezos, and so on? (**This is the main written response, and should be ≈150 words.**)
+
+## Team prep work
+
+Last week, I asked you to tell me what kind of social issue or type of nonprofit you’d be most interested in. In preparation for today’s team work, you’ll need to expand on that.
+
+Think of a social issue or cause that you’d be interested in creating a nonprofit for. In ≈150 words, justify why (or why not) the issue should be addressed by the nonprofit sector. What kind of public goods would it provide? Why doesn’t the government or the private sector do it instead? (Think of the theory readings). Which IRS category would it fall under?
+

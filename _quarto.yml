@@ -99,6 +99,7 @@ website:
             - assignment/01-why-nonprofits.qmd
         - section: "Team assignments"
           contents:
+            - assignment/00-team-charter.qmd
             - assignment/01-community-issue-mission-vision.qmd
             - assignment/02-organizational-structure.qmd
             - assignment/03-budget-revenue-plan.qmd

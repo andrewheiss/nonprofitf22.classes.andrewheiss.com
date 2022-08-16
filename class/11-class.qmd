@@ -27,3 +27,8 @@ slide_details <- tibble::tribble(
 ## Written response question
 
 The formal nonprofit sector has historically been controlled by wealthy white straight men, and the institutional foundations of the sector often benefits these groups of people. How do you think foundations and nonprofits could/should change those institutional structures and enhance the diversity and representativeness of the sector? (Answer in ≈150 words.)
+
+
+## Team prep work
+
+Draft a list of three different strategies or initiatives for promoting diversity among your nonprofit's volunteers, staff, and board. You'll spend class time deciding on more formal plans.

@@ -1,0 +1,35 @@
+---
+title: "Team charter"
+date: "2022-09-09"
+---
+
+## Instructions
+
+To help your team set norms and maintain expectations throughout the semester (and to help make teamwork suck less), you will need to create a team charter that does the following:
+
+1. Creates a team name
+2. Establishes roles and expectations for each member of the team, addressing issues like:
+  - Who is in charge of which duties and when? Will you have set roles like a communciator, scheduler, note keeper, etc.? Will you rotate roles around?
+  - How will you communicate with each other?
+  - How will you deal with late work and free riding?
+  - How will you support team members who are struggling?
+  - How will you deal with team members who do not meet team standards?
+  - What other rules will you follow?
+
+You don't need to follow any specific template for this—it's completely up to you how you want to write it. Here are some examples of other team charters. These are ***by no means*** ideal or perfect or anything. One is an ultra generic template; two are charters I dug up from my time as an MPA (master of public administration) student. But they'll give you a good feel for what should be in a charter:
+
+- <i class="far fa-file-pdf"></i> [Team charter example](https://international.humber.ca/assets/files/Group-or-Team-Charter.pdf) from the International Centre at Humber College 
+- <i class="far fa-file-pdf"></i> [Charter from Team RRRAM](/files/rrram-charter.pdf), BYU MPA Fall 2010
+- <i class="far fa-file-pdf"></i> [Charter from Team Gubernator](/files/gubernator-charter.pdf), BYU MPA Winter 2011
+
+
+## Turning it in
+
+Submit a PDF of your charter to iCollege. Do not submit a link to a Google document—if you use Google Docs, export the document as a PDF file first and submit that.
+
+Since this is a team assignment, only one copy of the assignment needs to be submitted.
+
+
+## Grading
+
+I will grade this assignment based on completion—do a good job with the charter, put good thought into it, and you'll get 100%.

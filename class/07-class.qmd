@@ -25,3 +25,8 @@ slide_details <- tibble::tribble(
 ## Written response question
 
 Discuss whether you feel that the general public is becoming more cynical or weary about the motivations behind nonprofit fundraising appeals. If yes, what steps can nonprofits take to reverse this weariness? If no, explain why not. (Answer in ≈150 words.)
+
+
+## Team prep work
+
+What funding sources should your nonprofit draw on? Why those sources? You'll spend class time deciding on your nonprofit's main revenue sources. (Answer in ≈75 words.)

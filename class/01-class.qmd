@@ -18,6 +18,8 @@ slide_details <- tibble::tribble(
 ## Readings
 
 - The [syllabus](/syllabus.qmd), [class](/class/index.qmd), and [assignments](/assignment/index.qmd) pages for this class
+- {{< fa book >}} Chapter 1 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
+- {{< fa video >}} Dan Pallotta, ["The way we think about charity is dead wrong"](https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong?language=en)
 
 
 ## Slides

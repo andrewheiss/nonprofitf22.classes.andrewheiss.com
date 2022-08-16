@@ -60,7 +60,7 @@ There will also occasionally be additional articles or videos to read and watch.
 
 ## Attendance and participation
 
-You're expected to come to class each Tuesday and Thursday prepared, having (1) read the material and (2) completed the pre-class check-in on iCollege.
+You're expected to come to class each Thursday prepared, having (1) read the material and (2) completed the pre-class check-in on iCollege.
 
 Attendance and participation are important to your success in this course. However, we're in the middle of a deadly global pandemic and *so many people* are getting sick. If you are sick or are incapable of participating meaningfully in class (e.g. you have stayed up all night and are going to fall asleep in class), please stay home.
 
@@ -72,20 +72,18 @@ GSU has some new process for getting absences excused because of illness, but I 
 
 If you test positive for COVID-19, report it at <https://cc-gsu.force.com/s/>, hunker down, and focus on getting better! Please do not come to class. 
 
-You will be working in a team throughout the semester, so make sure you coordiante with your teammates when sickness strikes. 
+You will be working in a team throughout the semester, so make sure you coordinate with your teammates when sickness strikes. 
 
 
 ## Pandemic stuff
 
 ### Masks and vaccines
 
-<small>GSU does not require this and I can't legally require this but I am allowed to urge it so here's me urging it:</small><br>Please get the COVID-19 vaccination ([sign up for one here!](https://covidinfo.gsu.edu/covid-19-resources/covid-19-vaccine/)). It is free. It saves lives. (I am fully vaccinated and boosted.)
+<small>GSU does not require this and I can't require this but I am allowed to urge it so here's me urging it:</small><br>Please get the COVID-19 vaccination and a booster shot ([sign up for one here!](https://covidinfo.gsu.edu/covid-19-resources/covid-19-vaccine/)). It is free. It saves lives. (I am fully vaccinated and boosted.)
 
-While the City of Atlanta has instituted a mandatory mask policy, GSU is a state-run entity that follows guidelines set by the University System of Georgia, which has no mandate, which means Atlanta's mandate is not in force in university buildings. However, I will be wearing a mask. 
+GSU and the University System of Georgia do not have a mask mandate for students or faculty. However, I personally will be wearing a mask when [the CDC's community transmission levels](https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=Georgia&data-type=Risk&list_select_county=13121) in the Atlanta area are medium or above.
 
-Two of my children are unable to receive the COVID-19 vaccine because they are too young, and both of them are at elevated risk of complications from respiratory illness. I'm guessing many of you have friends and loved ones in similar situations.
-
-<small>GSU also does not require this and I can't legally require this but, again, I'm allowed to urge it, so:</small><br>Following [CDC guidlines](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/fully-vaccinated-guidance.html), **I strongly recommend/urge/encourage you to wear a mask in class** regardless of your vaccination status. I will place a box of disposable masks by the door if you would like one.
+**I strongly recommend/urge/encourage you to wear a mask in class on Mondays** regardless of your vaccination status. I will place a box of disposable masks by the door if you would like one. 
 
 Again, GSU does not require either vaccines or masks, and if you aren't vaccinated or don't wear a mask, there are no penalties.
 
@@ -124,7 +122,7 @@ Please watch this video:
 
 Student hours are set times dedicated to all of you (most professors call these "office hours"; I don't^[There's fairly widespread misunderstanding about what office hours actually are! [Many students often think that they are the times I *shouldn't* be disturbed](https://www.chronicle.com/article/Can-This-Man-Change-How-Elite/245714/), which is the exact opposite of what they're for!]). This means that I will be ~~in my office~~ at home (wistfully) waiting for you to ~~come by~~ talk to me remotely with whatever questions you have. This is the best and easiest way to find me and the best chance for discussing class material and concerns.
 
-Because of the pandemic and [my family situation](#masks-and-vaccines), it is easiest to meet with me online via Webex for student hours. [Make an appointment with me here](https://calendly.com/andrewheiss/), and then use this link to talk to me during student hours: <https://gsumeetings.webex.com/meet/aheiss>. You can also find me through e-mail.
+Because of the pandemic, it is easiest to meet with me online via Webex for student hours. [Make an appointment with me here](https://calendly.com/andrewheiss/), and then use this link to talk to me during student hours: <https://gsumeetings.webex.com/meet/aheiss>. You can also find me through e-mail.
 
 ### Late work
 
@@ -168,15 +166,17 @@ You can find descriptions for all the assignments on the [assignments page](/ass
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
   ~Points,   ~Assignment,
-  20 * 11.5, "Pre-class check-ins (20 × 11.5)",
+  12 * 16.5, "Pre-class check-ins (12 × 16.5)",
   40,        "Why nonprofits?",
+  30,        "Team charter",
   40,        "Community, issue, mission, and vision",
   50,        "Organizational structure",
   50,        "Revenue plan and budget",
   50,        "Fundraising and marketing",
   40,        "Diversity strategy",
   150,       "Final presentation",
-  150,       "Final portfolio"
+  150,       "Final portfolio",
+  2,         "Two free points to make a nice denominator"
 ) %>%
   mutate(Percent = Points / sum(Points),
          Percent = scales::percent(Percent))
@@ -219,4 +219,3 @@ grading %>%
 ## Comic books
 
 Once you have read this entire syllabus and [the assignments page](/assignment/), please [click here](mailto:aheiss@gsu.edu) and e-mail me a picture of your favorite comic book character.
-

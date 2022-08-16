@@ -23,3 +23,7 @@ slide_details <- tibble::tribble(
 ## Written response question
 
 Do you think that in practice, a mission statement can ever be truly effective in constraining the expansion of activities of a nonprofit organization? Why or why not? (Answer in ≈150 words.)
+
+## Team prep work
+
+Write mission and vision statements for your team's nonprofit project to propose to your team. You'll spend class time narrowing down everyone's proposals and consolidating and polishing everything into a single mission statement and vision statement.
