@@ -524,9 +524,9 @@ Other readings and videos
 
 .box-inv-3[↓ Schedule & assignments & most other content lives here ↓]
 
-.box-inv-3[.color-5[**nonprofit**] .color-7[**sp**] .color-6[**22**] .classes.andrewheiss.com]
+.box-inv-3[.color-5[**nonprofit**] .color-7[**f**] .color-6[**22**] .classes.andrewheiss.com]
 
-.box-inv-3.smaller[https://nonprofitsp22.classes.andrewheiss.com/]
+.box-inv-3.smaller[https://nonprofitf22.classes.andrewheiss.com/]
 
 .box-inv-3.small.sp-after[You'll have access to this site forever after the class is over]
 
