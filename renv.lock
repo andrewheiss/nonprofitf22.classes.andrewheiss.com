@@ -330,18 +330,13 @@
     },
     "countdown": {
       "Package": "countdown",
-      "Version": "0.3.5",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "countdown",
-      "RemoteUsername": "gadenbuie",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "a544fa48e2248996002e059ca07ad620d2aec3a8",
-      "Hash": "6b12950bdf51b8a0e865979aad44cdaa",
+      "Version": "0.4.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b44ad5a5e287637c3b8ca0e9bb64bb18",
       "Requirements": [
-        "callr",
         "htmltools",
+        "prismatic",
         "whisker"
       ]
     },
@@ -795,41 +790,16 @@
     },
     "httr": {
       "Package": "httr",
-      "Version": "1.4.3",
+      "Version": "1.4.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "88d1b310583777edf01ccd1216fb0b2b",
+      "Hash": "57557fac46471f0dbbf44705cc6a5c8c",
       "Requirements": [
         "R6",
         "curl",
         "jsonlite",
         "mime",
         "openssl"
-      ]
-    },
-    "icons": {
-      "Package": "icons",
-      "Version": "0.2.0",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "icons",
-      "RemoteUsername": "mitchelloharawild",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "6e4dc378ac86c1d4f4ea167f408bed07b3df14fb",
-      "Hash": "1ca4478a3466cb5d4b30b93c0b33036c",
-      "Requirements": [
-        "cli",
-        "crayon",
-        "glue",
-        "htmltools",
-        "jsonlite",
-        "knitr",
-        "rappdirs",
-        "rlang",
-        "rstudioapi",
-        "stringr",
-        "xml2"
       ]
     },
     "ids": {
@@ -1179,6 +1149,16 @@
       "Repository": "CRAN",
       "Hash": "95ef9167b75dde9d2ccc3c7528393e7e",
       "Requirements": []
+    },
+    "prismatic": {
+      "Package": "prismatic",
+      "Version": "1.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "faa2193fdec94a45b4390aefc1280a62",
+      "Requirements": [
+        "farver"
+      ]
     },
     "processx": {
       "Package": "processx",
