@@ -608,7 +608,7 @@ class: title title-3
 
 --
 
-.box-inv-3.medium[Please, please, please wear a mask]
+.box-inv-3.medium[If community transmission is<br>medium–high, I'll wear a mask]
 
 --
 
