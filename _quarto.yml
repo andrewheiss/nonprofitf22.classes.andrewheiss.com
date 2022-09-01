@@ -19,11 +19,11 @@ execute:
 
 bibliography: files/bib/references.bib
 csl: files/bib/chicago-author-date.csl
+description-meta: "Discover what nonprofit organizations are, how they work, and how they can improve communities (and the world)"
 
 website:
   title: "Introduction to Nonprofits"
   site-url: "https://nonprofitf22.classes.andrewheiss.com"
-  description-meta: "Discover what nonprofit organizations are, how they work, and how they can improve communities (and the world)"
 
   favicon: "/files/favicon-512.png"
 
