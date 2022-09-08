@@ -24,6 +24,28 @@ slide_details <- tibble::tribble(
 
 Do you think that in practice, a mission statement can ever be truly effective in constraining the expansion of activities of a nonprofit organization? Why or why not? (Answer in ≈150 words.)
 
+
 ## Team prep work
 
 Write mission and vision statements for your team's nonprofit project to propose to your team. You'll spend class time narrowing down everyone's proposals and consolidating and polishing everything into a single mission statement and vision statement.
+
+
+## Possible mission, vision, and values guidelines
+
+Here's a rubric I use for evaluating the mission/vision/values statements of nonprofits. You might find it helpful when developing your own organization's mission and vision.
+
+- {{< fa file-excel >}} [Mission, vision, and values rubric for nonprofits](/files/mission-vision-values-rubric.xlsx)
+
+
+## Slides
+
+The slides for today's class are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+slide_buttons("/slides/03-slides")
+slide_tabs(slide_details, "/slides/03-slides.html")
+```
+
+:::{.callout-tip}
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
