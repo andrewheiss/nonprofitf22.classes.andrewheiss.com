@@ -28,3 +28,17 @@ Why did Congress prohibit tax-exempt charities from engaging in partisan politic
 ## Team prep work
 
 Write a statement arguing for or against whether your team's nonprofit should be incorporated, have membership, and apply for tax-exempt status. You'll spend class time coming to a consensus about incorporation and membership. (Answer in ≈75 words.)
+
+
+## Slides
+
+The slides for today's class are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+slide_buttons("/slides/04-slides")
+slide_tabs(slide_details, "/slides/04-slides.html")
+```
+
+:::{.callout-tip}
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
