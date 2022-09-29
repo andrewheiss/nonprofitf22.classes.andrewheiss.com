@@ -29,3 +29,17 @@ Should volunteers be treated any differently by the organization than paid staff
 ## Team prep work
 
 What type of personnel would be most appropriate for your team's nonprofit? Should you have volunteers? Why or why not? You'll spend class time creating the personnel structure for your organization and justifying why you are/aren't using volunteers. (Answer in ≈75 words.)
+
+
+## Slides
+
+The slides for today's class are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+slide_buttons("/slides/06-slides")
+slide_tabs(slide_details, "/slides/06-slides.html")
+```
+
+:::{.callout-tip}
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
