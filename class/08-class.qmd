@@ -17,7 +17,7 @@ slide_details <- tibble::tribble(
 ## Readings
 
 - {{< fa book >}} Chapter 11 in Grobman, *An Introduction to the Nonprofit Sector* [@Grobman:2021]
-- {{< fa file-pdf >}}Chapter 3 in Peri H. Pakroo, *Starting & Building a Nonprofit* [@Pakroo:2021] (the PDF for this is on iCollege under "Content".)
+- {{< fa file-pdf >}} Chapter 3 in Peri H. Pakroo, *Starting & Building a Nonprofit* [@Pakroo:2021] (the PDF for this is on iCollege under "Content".)
 
 
 ## Written response question
@@ -28,3 +28,43 @@ What control should the board have over the ability of nonprofit executives to s
 ## Team prep work
 
 Put together a basic, preliminary, balanced budget for your nonprofit to propose to your team. You'll spend class time creating and finalizing your organization's budget.
+
+
+## In-class materials
+
+Spreadsheets:
+
+- {{< fa table >}} [Example budget](https://docs.google.com/spreadsheets/d/1JB4q04jA4yO8qP6r25uVtI2O4_QpXkg-7V4xIcg1rYo/edit)
+- {{< fa table >}} [990 analysis form](https://docs.google.com/spreadsheets/d/1gq0A192FNgFA9V6Z5jO8U_NhgAu9nBvJ41TZQr6aiUg/edit)
+
+990s:
+
+- {{< fa file-pdf >}} [CARE 2018 990](/files/990s/CARE-2018-990.pdf)
+- {{< fa file-pdf >}} [CARE 2019 990](/files/990s/CARE-2019-990.pdf)
+- {{< fa file-pdf >}} [CARE 2020 990](/files/990s/CARE-2020-990.pdf)
+- {{< fa file-pdf >}} [Georgia Aquarium 2017 990](/files/990s/Georgia-Aquarium-2017-990.pdf)
+- {{< fa file-pdf >}} [Georgia Aquarium 2018 990](/files/990s/Georgia-Aquarium-2018-990.pdf)
+- {{< fa file-pdf >}} [Georgia Aquarium 2019 990](/files/990s/Georgia-Aquarium-2019-990.pdf)
+- {{< fa file-pdf >}} [Center for Puppetry Arts 2018 990](/files/990s/Center-for-Puppetry-Arts-2018-990.pdf)
+- {{< fa file-pdf >}} [Center for Puppetry Arts 2019 990](/files/990s/Center-for-Puppetry-Arts-2019-990.pdf)
+- {{< fa file-pdf >}} [Center for Puppetry Arts 2020 990](/files/990s/Center-for-Puppetry-Arts-2020-990.pdf)
+- {{< fa file-pdf >}} [Live Thrive 2017 990](/files/990s/Live-Thrive-2017-990.pdf)
+- {{< fa file-pdf >}} [Live Thrive 2018 990](/files/990s/Live-Thrive-2018-990.pdf)
+- {{< fa file-pdf >}} [Live Thrive 2019 990](/files/990s/Live-Thrive-2019-990.pdf)
+- {{< fa file-pdf >}} [Trees Atlanta 2018 990](/files/990s/Trees-Atlanta-2018-990.pdf)
+- {{< fa file-pdf >}} [Trees Atlanta 2019 990](/files/990s/Trees-Atlanta-2019-990.pdf)
+- {{< fa file-pdf >}} [Trees Atlanta 2020 990](/files/990s/Trees-Atlanta-2020-990.pdf) 
+
+
+## Slides
+
+The slides for today's class are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+slide_buttons("/slides/08-slides")
+slide_tabs(slide_details, "/slides/08-slides.html")
+```
+
+:::{.callout-tip}
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
