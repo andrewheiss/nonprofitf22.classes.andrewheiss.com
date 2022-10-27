@@ -28,3 +28,81 @@ What kind of information should be available on a nonprofit organization's websi
 ## Team prep work
 
 Describe a preliminary idea for a press release for your nonprofit. You'll spend class time deciding on more formal plans. (Answer in ≈75 words.)
+
+
+## Online nonprofit PR evaluation
+
+- {{< fa file-lines >}} [CARE: Online nonprofit PR evaluation](https://docs.google.com/document/d/1QsZpKG60dnBV9v-Ek0tfedLk8xzETdB0yO1Nj93dLmM/edit)
+- {{< fa file-lines >}} [Center for Puppetry Arts: Online nonprofit PR evaluation](https://docs.google.com/document/d/1jlmysvzwa8RAMlcu0_aCRsEvOCusP9UMdVfiMpmE9us/edit)
+- {{< fa file-lines >}} [Georgia Aquarium: Online nonprofit PR evaluation](https://docs.google.com/document/d/1ubVDUuyp-IyHkWGX9T1qQJjnBjb6R2SwhrJ1N1Netbg/edit)
+- {{< fa file-lines >}} [Trees Atlanta: Online nonprofit PR evaluation](https://docs.google.com/document/d/1093P-CS5g3-mOL-Ui6JHLAiznRlMd7HnMkltymB-j8I/edit)
+- {{< fa file-lines >}} [Blank template: Online nonprofit PR evaluation](https://docs.google.com/document/d/1bIm9rurvPS3lIx6oo5GhmHkJoaESOMcbxL8nT7jt3ok/copy)
+
+
+## Example PR materials
+
+- Newsletter (print): [The Carter Center](/files/pr/carter-center_newsletter.pdf) ([full list](https://www.cartercenter.org/news/publications/newsletters/index.html))
+- Newsletter (e-mail): [Lifting Hands International](/files/pr/lhi_newsletter.pdf)
+- Press releases: [The High Museum](https://high.org/press-releases/)
+- Annual report: [CARE](/files/pr/care_annual-report.pdf) ([full list](https://www.care.org/reports-and-resources/archive/?_resource_type=annual-reports))
+- Annual report: [Trees Atlanta](/files/pr/trees-atlanta_annual-report.pdf) ([full list](https://www.treesatlanta.org/annual-reports/))
+- Podcast: [Amnesty International's "Witness"](https://www.amnesty.org/en/witness/)
+- Social media: The Center for Puppetry Arts on [Instagram](https://www.instagram.com/ctr_puppetry_arts/), [Twitter](https://twitter.com/CtrPuppetryArts), and [Facebook](https://www.facebook.com/CenterforPuppetryArts/)
+
+
+## Online resources for nonprofits
+
+Website hosting:
+
+- Hire a web developer!
+- [Squarespace](https://www.squarespace.com.com)
+- [Google Sites](https://sites.google.com/)
+- [WordPress](https://wordpress.com/) (see [this guide](https://nonprofitwp.org/) too)
+- [Wix](https://www.wix.com/) (see [their nonprofit templates](https://www.wix.com/website/templates/html/communities/non-profit))
+- [Weebly](https://www.weebly.com/)
+
+Domain names:
+
+- [iwantmyname](https://iwantmyname.com/)
+
+Organizational e-mail providers:
+
+- [Google Workspace](https://www.google.com/nonprofits/offerings/workspace/) (free e-mail and Google apps for nonprofits)
+- [Microsoft 365](https://www.microsoft.com/en-us/nonprofits/microsoft-365) (free e-mail and online Office apps (Word, Excel, PowerPoint) for nonprofits; $3 per user for desktop Office programs)
+
+Collect donations and sell stuff:
+
+- [Donorbox](https://donorbox.org/)
+- [Give Lively](https://www.givelively.org/)
+- [Shopify](https://www.shopify.com/)
+
+Donor management:
+
+- [Kindful](https://kindful.com/)
+- [Donorbox](https://donorbox.org/)
+- [Give Lively](https://www.givelively.org/)
+
+Ads:
+
+- [Google Ad Grants for nonprofits](https://www.google.com/grants/) (free add money for nonprofits)
+- [Nonprofit marketing with Meta](https://www.facebook.com/business/learn/digital-skills-programs/nonprofit-ngo-marketing) (Facebook and Instagram)
+
+Other services:
+
+- [Slack](https://slack.com/help/articles/204368833-Apply-for-the-Slack-for-Nonprofits-discount) (free for nonprofits)
+- [Zoom](https://blog.zoom.us/zoom-for-nonprofits/) (50% off for nonprofits)
+- [Asana](https://asana.com/nonprofit) (50% off for nonprofits)
+
+
+## Slides
+
+The slides for today's class are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+slide_buttons("/slides/10-slides")
+slide_tabs(slide_details, "/slides/10-slides.html")
+```
+
+:::{.callout-tip}
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
